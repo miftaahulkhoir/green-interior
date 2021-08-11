@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: "Green Interior",
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    author: `mifta`,
+    siteUrl: 'https://gatstrap.netlify.com',
   },
   plugins: [
     "gatsby-plugin-postcss",

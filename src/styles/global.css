@@ -1,3 +1,13 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+@import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../assets/vendors/font-awesome/css/fontawesome-all.min.css';
+@import '../assets/vendors/slick-carousel/slick.css';
+@import '../assets/fonts/themify-icons.css';
+@import '../assets/vendors/magnific-popup/magnific-popup.css';
+@import '../assets/css/aos.css';
+@import '../assets/css/hovereffects.css';
+@import '../assets/css/scrolling-nav.css';
+@import '../assets/css/theme.css';
+@import '../assets/css/styles.css';
