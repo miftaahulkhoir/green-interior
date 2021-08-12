@@ -4,11 +4,12 @@ import { Helmet } from "react-helmet";
 
 const Head = () => (
   <Helmet>
+    {console.log("test")}
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link
       rel="stylesheet"
       type="text/css"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      href={withPrefix("css/bootstrap.min.css")}
     />
     <link
       rel="stylesheet"
@@ -37,18 +38,14 @@ const Head = () => (
       href={withPrefix("css/hovereffects.css")}
     />
     <link href={withPrefix("css/scrolling-nav.css")} rel="stylesheet" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    {/* <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" /> */}
     <link rel="stylesheet" type="text/css" href={withPrefix("css/theme.css")} />
     <link
       rel="stylesheet"
       type="text/css"
       href={withPrefix("css/styles.css")}
     />
-    <script
-      defer
-      key="scrolling"
-      src={withPrefix("js/scrolling-nav.js")}
-    ></script>
+    <script defer key="scrolling" src={withPrefix("js/scrolling-nav.js")}></script>
     <script defer key="global" src={withPrefix("js/global.js")}></script>
     {/* <script >$('[data-aos]').parent().addClass('hideOverflowOnMobile')/; */}
     {/* <script  async src="https://www.googletagmanager.com/gtag/js?id=G-H285CVWKTW"/>

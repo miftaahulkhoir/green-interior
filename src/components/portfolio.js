@@ -1,5 +1,6 @@
 import React from "react";
-import { withPrefix } from "gatsby";
+// impot../ {a e} from "gatsby
+import { StaticImage } from "gatsby-plugin-image";
 
 const Portfolio = () => {
   return (
@@ -36,9 +37,9 @@ const Portfolio = () => {
                 className="hovereffect5 rounded-md overflow-hidden"
                 style={{ cursor: "pointer" }}
               >
-                <img
+                <StaticImage
                   className="img-fluid img-responsive"
-                  src={withPrefix("img/portfolio/kitchen-set-1.jpg")}
+                  src="../images/portfolio/kitchen-set-1.jpg"
                   alt=""
                 />
                 <div className="overlay">
@@ -51,9 +52,9 @@ const Portfolio = () => {
           </div>
           <div className="item selfie col-lg-3 col-md-4 col-6 col-sm">
             <div className="hovereffect5 rounded-md overflow-hidden">
-              <img
+              <StaticImage
                 className="img-fluid img-responsive"
-                src={withPrefix("img/portfolio/img2.jpg")}
+                src="../images/portfolio/img2.jpg"
                 alt=""
               />
               <div className="overlay">
@@ -72,9 +73,9 @@ const Portfolio = () => {
           </div>
           <div className="item lap col-lg-3 col-md-4 col-6 col-sm">
             <div className="hovereffect5 rounded-md overflow-hidden">
-              <img
+              <StaticImage
                 className="img-fluid img-responsive"
-                src={withPrefix("img/portfolio/img3.jpg")}
+                src="../images/portfolio/img3.jpg"
                 alt=""
               />
               <div className="overlay">
@@ -93,9 +94,9 @@ const Portfolio = () => {
           </div>
           <div className="item selfie col-lg-3 col-md-4 col-6 col-sm">
             <div className="hovereffect5 rounded-md overflow-hidden">
-              <img
+              <StaticImage
                 className="img-fluid img-responsive"
-                src={withPrefix("img/portfolio/img4.jpg")}
+                src="../images/portfolio/img4.jpg"
                 alt=""
               />
               <div className="overlay">
@@ -114,9 +115,9 @@ const Portfolio = () => {
           </div>
           <div className="item lap col-lg-3 col-md-4 col-6 col-sm">
             <div className="hovereffect5 rounded-md overflow-hidden">
-              <img
+              <StaticImage
                 className="img-fluid img-responsive"
-                src={withPrefix("img/portfolio/img5.jpg")}
+                src="../images/portfolio/img5.jpg"
                 alt=""
               />
               <div className="overlay">
@@ -135,9 +136,9 @@ const Portfolio = () => {
           </div>
           <div className="item gts col-lg-3 col-md-4 col-6 col-sm">
             <div className="hovereffect5 rounded-md overflow-hidden">
-              <img
+              <StaticImage
                 className="img-fluid img-responsive"
-                src={withPrefix("img/portfolio/img6.jpg")}
+                src="../images/portfolio/img6.jpg"
                 alt=""
               />
               <div className="overlay">
@@ -156,9 +157,9 @@ const Portfolio = () => {
           </div>
           <div className="item gts col-lg-3 col-md-4 col-6 col-sm">
             <div className="hovereffect5 rounded-md overflow-hidden">
-              <img
+              <StaticImage
                 className="img-fluid img-responsive"
-                src={withPrefix("img/portfolio/img7.jpg")}
+                src="../images/portfolio/img7.jpg"
                 alt=""
               />
               <div className="overlay">
@@ -177,9 +178,9 @@ const Portfolio = () => {
           </div>
           <div className="item selfie col-lg-3 col-md-4 col-6 col-sm">
             <div className="hovereffect5 rounded-md overflow-hidden">
-              <img
+              <StaticImage
                 className="img-fluid img-responsive"
-                src={withPrefix("img/portfolio/img8.jpg")}
+                src="../images/portfolio/img8.jpg"
                 alt=""
               />
               <div className="overlay">

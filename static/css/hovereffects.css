@@ -597,7 +597,7 @@ transition-delay:.2s;
   text-align: left;
 }
 
-.hovereffect5 img {
+.hovereffect5 .gatsby-image-wrapper {
   display: block;
   position: relative;
   max-width: none;
